@@ -7,6 +7,7 @@
 
 body{
   margin: 0;
+  font-family: 'Aller';
 }
 
 .clearfix{
@@ -164,6 +165,10 @@ body{
   padding: 0;
 }
 
+.position{
+  display: none;
+}
+
 .offers{
   text-align: center;
   color: white;
@@ -195,6 +200,7 @@ body{
 /*images start*/
 .images{
   width: 100%;
+  margin-top: 20px;
 }
 
 .inner_images{
@@ -216,11 +222,12 @@ body{
   background-color: #242424;
   opacity: 0.9;
   color: white;
-  width: 180px;
+  width: 60%;
   height: 60px;
   text-align: center;
   font-size: 24px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*images end*/
 
@@ -230,7 +237,6 @@ body{
   background-color: #ebe7de;
   width: 100%;
   margin-top: 50px;
-  height: auto;
 }
 
 .inner_items{
@@ -264,8 +270,8 @@ body{
 }
 
 .height{
-  height: 270px;
-  margin-top: 50px;
+  height: auto;
+  margin-top: 20px;
 }
 
 .divider{
@@ -285,6 +291,8 @@ body{
   margin-top: 20px;
   margin-left: 0px;
   width: 100%;
+  padding-bottom: 20px;
+  height: auto;
   background-color: #dfdad4;
 }
 
@@ -292,13 +300,15 @@ body{
   margin-top: 20px;
   margin-left: 0px;
   width: 100%;
-  height: 186px;
   float: left;
   background-color: #dfdad4;
 }
 
 .title2{
-  padding-left: 15px;
+  text-align: center;
+  padding-top: 5px;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .description{
@@ -307,16 +317,15 @@ body{
 }
 
 .date{
-  float: left;
   height: 36px;
   width: 36px;
-  margin-left: 20px;
+  margin: 0 auto;
 }
 
 .blog_content{
-  float: right;
+  margin-top: 10px;
+  text-align: center;
   height: 36px;
-  width: 85%;
 }
 
 .blog_title{
@@ -327,6 +336,7 @@ body{
 .blog_detail{
   font-size: 11px;
 }
+
 .margin_top{
   margin-top: 10px;
 }
@@ -337,14 +347,16 @@ body{
 .widgets{
   width: 100%;
   background-color: #242424;
-  margin-top: 180px;
-  padding-bottom: 30px;
+  margin-top: 300px;
+  padding-bottom: 20px;
+  padding-top: 0px;
 }
 
 .inner_widgets{
   width: 100%;
   margin: 0 auto;
-  padding-top: 54px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .text_widget{
@@ -375,6 +387,11 @@ p{
   display: none;
 }
 
+.title_widget{
+  font-size: 14px;
+}
+
+
 .comment_color{
   color: #57C5A0;
 }
@@ -397,6 +414,7 @@ p{
 .contact{
   width: 100%;
   background-color: #242424;
+  height: 100px;
 }
 
 .inner_contact{
@@ -412,11 +430,12 @@ p{
 
 .contact_left{
   margin: 0 auto;
+
+  margin-left: 20%;
+  width: 60%;
 }
 
 .email{
-  margin-left: 5%;
-  width: 60%;
   padding-top: 40px;
   float:left;
 }
@@ -427,6 +446,7 @@ input{
   width: 100%;
   height: 35px;
   border: none;
+  padding-left: 10px;
 }
 
 .input:focus{
@@ -436,20 +456,20 @@ input{
 .send{
   background-color: #7e7e7e;
   color: black;
-  width: 35px;
+  width: auto;
   height: 25px;
   margin-top: 40px;
   text-align: center;
   font-size: 15px;
   padding-top: 10px;
-  float: right;
+  float: left;
   margin-right: 40px;
+  display: none;
 }
 
 .contact_right{
-  float: right;
-  margin-right: 40px;
-  margin-top: 40px;
+  display: none;
+  width: 100%;
 }
 
 .social_media{
@@ -465,6 +485,7 @@ input{
   width: 100%;
   background-color: #2e2e2e;
   color: #000000;
+  display: none;
 }
 
 .inner_copyright{
@@ -645,10 +666,17 @@ input{
     background-color: #2e2e2e;
   }
 
+  .position{
+    padding-top: 5px;
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+  }
+
   .inner_shoes{
     width: 940px;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 0px;
     display: block;
   }
 
@@ -773,12 +801,13 @@ input{
   }
 
   .addons_items{
-    padding-top: 25px;
+
   }
 
   .item1{
     width: 220px;
     height: 186px;
+    padding-bottom: 0px;
     float: left;
     background-color: #dfdad4;
   }
@@ -791,7 +820,7 @@ input{
   }
 
   .title2{
-    padding-left: 15px;
+
   }
 
   .description{
@@ -810,6 +839,8 @@ input{
     float: right;
     height: 36px;
     width: 85%;
+    text-align: left;
+    margin-top: 0px;
   }
 
   .blog_title{
@@ -838,6 +869,7 @@ input{
     width: 940px;
     margin: 0 auto;
     padding-top: 54px;
+    text-align: left;
   }
 
   .text_widget{
@@ -927,16 +959,20 @@ input{
     text-align: center;
     font-size: 15px;
     padding-top: 10px;
+    display: block;
   }
 
   .contact_left{
     float: left;
+    margin-left: 0px;
   }
 
   .contact_right{
     float: right;
     margin-right: 40px;
     margin-top: 40px;
+    width:auto;
+    display: block;
   }
 
   .social_media{
@@ -953,6 +989,7 @@ input{
     background-color: #2e2e2e;
     height: 108px;
     color: #ffffff;
+    display: block;
   }
 
   .inner_copyright{
